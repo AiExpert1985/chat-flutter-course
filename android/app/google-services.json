@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "180432667819",
+    "project_id": "shaheen-erp-d3a73",
+    "storage_bucket": "shaheen-erp-d3a73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180432667819:android:f03ef5201fd9a51e8363ee",
+        "android_client_info": {
+          "package_name": "com.example.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFN9GaZ4_bcmm7_Iib7ZUp8WA_5fFAwCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
