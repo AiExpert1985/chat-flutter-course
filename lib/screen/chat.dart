@@ -17,9 +17,12 @@ class _ChatScreenState extends State<ChatScreen> {
     final fcm = FirebaseMessaging.instance;
     // ask user for permission
     await fcm.requestPermission();
-    // address of the device that you need to target this device, which you can send to a backend & use it later
-    final token = await fcm.getToken();
-    print(token);
+    // // address of the device that you need to target this device, which you can send to a backend & use it later
+    // final token = await fcm.getToken();
+    // print(token);
+
+    //group of devices subscribed to a channel
+    fcm.subscribeToTopic('chat');
   }
 
   // here we ask for permission from the device
