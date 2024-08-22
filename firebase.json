@@ -1,1 +1,34 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"shaheen-erp-d3a73","appId":"1:180432667819:android:408e30feba1fe2c18363ee","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"shaheen-erp-d3a73","configurations":{"android":"1:180432667819:android:408e30feba1fe2c18363ee"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "shaheen-erp-d3a73",
+          "appId": "1:180432667819:android:408e30feba1fe2c18363ee",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "shaheen-erp-d3a73",
+          "configurations": {
+            "android": "1:180432667819:android:408e30feba1fe2c18363ee"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "venv",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
