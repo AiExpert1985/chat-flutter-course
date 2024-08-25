@@ -8,6 +8,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
 void main() async {
+  // print('.........................Main..........................');
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
@@ -21,6 +22,8 @@ void main() async {
             return const SplashScreen();
           }
           if (snapshot.hasData) {
+            // FirebaseAuth.instance.signOut();
+            // print('singned bout');
             return const ChatScreen();
           }
 
