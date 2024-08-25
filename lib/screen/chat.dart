@@ -19,6 +19,7 @@ class _ChatScreenState extends State<ChatScreen> {
     await fcm.requestPermission();
     // // address of the device that you need to target this device, which you can send to a backend & use it later
     // final token = await fcm.getToken();
+    // print('below is the token -----------------------------');
     // print(token);
 
     //group of devices subscribed to a channel
@@ -35,7 +36,6 @@ class _ChatScreenState extends State<ChatScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // print('........................Chaaaat.........................');
     return Scaffold(
       appBar: AppBar(
         actions: [

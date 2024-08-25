@@ -76,7 +76,6 @@ class _AuthScreenState extends State<AuthScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // print('.........................auth..........................');
     return Scaffold(
       backgroundColor: Theme.of(context).colorScheme.primary,
       body: Center(
